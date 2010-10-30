@@ -1,0 +1,12 @@
+<h1>Carona Solidária</h1>
+
+<ul>
+<% @rides.each do |r| %>
+    <li>
+        Destino: <%=r.destiny%><br/>
+        Saída: <%=r.date%><br/>
+        Vagas: <%=r.emptyplaces%><br/>
+        Pedir carona!
+    </li>
+<% end %>
+</ul>

@@ -1,0 +1,21 @@
+<h1>Listing hitchhikes</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @hitchhikes.each do |hitchhike| %>
+  <tr>
+    <td><%= link_to 'Show', hitchhike %></td>
+    <td><%= link_to 'Edit', edit_hitchhike_path(hitchhike) %></td>
+    <td><%= link_to 'Destroy', hitchhike, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Hitchhike', new_hitchhike_path %>
