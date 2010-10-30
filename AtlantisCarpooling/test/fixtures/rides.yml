@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  destiny: MyString
+  date: 
+  emptyplaces: 
+  user_id: 1
+
+two:
+  destiny: MyString
+  date: 
+  emptyplaces: 
+  user_id: 1

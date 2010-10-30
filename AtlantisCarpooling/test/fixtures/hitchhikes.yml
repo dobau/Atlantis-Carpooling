@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  ride_id: 
+  user_id: 
+  accepted: 
+  contribution: 1.5
+
+two:
+  ride_id: 
+  user_id: 
+  accepted: 
+  contribution: 1.5
